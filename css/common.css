@@ -1,0 +1,352 @@
+/* 各个页面相同的样式表：头，尾部 */
+
+/* 导航 */
+.daohang{
+    height: 52px;
+    background-color: #333333;
+
+    
+}
+.daohang .daohang1{
+    height: 52px;
+}
+.daohang .daohang1 ul{
+    padding-left: 610px;
+}
+.daohang li{
+    float: left;
+}
+.daohang li a{
+
+    padding: 0 16px;
+    border-right: 1px solid #666666;
+    line-height: 52px;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+.daohang li .shoujiban span{
+    display: inline-block;
+    width: 11px;
+    height: 16px;
+    /* background-color: pink; */
+    background-image: url(../images/sprites.png);
+    background-position: -160px -70px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+.daohang li .shoujiban{
+    border-style: none;
+
+}
+.daohang li a:hover{
+    color: #27ba9b;
+}
+.toubu{
+    height: 70px;
+    /* background-color: pink; */
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.toubu img{
+    float: left;
+
+    height: 70px;
+    margin-right: 40px; 
+}
+.toubu li{
+    float: left;
+
+    margin-top: 26px;
+}
+.toubu li a{
+    margin-right: 48px;
+    padding-bottom: 8px;
+    color: #333333;
+}
+.toubu li a:hover{
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+.toubu .shousuo{  
+    float: left;
+    
+    position: relative;
+    width: 222px;
+    height: 31px;
+    /* background-color: green; */
+
+    margin-left: 34px;
+    margin-top: 23px;
+    border-radius: 20px;
+    /* border-bottom: 2px solid #e7e7e7; */
+    box-shadow: 0 1px -3px -4px #e7e7e7;
+}
+.toubu .shousuo .sousuotu{
+    position: absolute;
+
+    top: 5px;
+    left: 4px;
+    width: 18px;
+    height: 18px;
+    /* background-color: pink; */
+    background-image: url(../images/sprites.png);
+    background-position: -80px -70px;
+}
+.toubu .shousuo input{
+    float: left;
+
+    width: 172px;
+    height: 30px;
+    padding-left: 24px;
+    border-radius: 20px;
+    border-style: none;
+    border-bottom: 2px solid #e7e7e7;
+}
+.toubu .shousuo .goumai{
+    float: left;
+    position: relative;
+
+    width: 23px;
+    height: 23px;
+    /* background-color: pink; */
+    margin-top: 5px;
+
+    background-image: url(../images/sprites.png);
+    background-position: -120px -69px;
+}
+.toubu .shousuo .goumai span{
+    position: absolute;
+    left: 15px;
+    top: -5px;
+
+    width: 20px;
+    height: 15px;
+    background-color: #e26237;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 15px;
+    color: #ffffff;
+    font-size: 13px;
+}
+.footer{
+    height: 645px;
+    /* background-color: #27ba9b; */
+    background-color: #fff;
+}
+.dinli{
+    height: 322px;
+    background-color: #fff;
+
+    padding: 69px 60px 0;
+    
+}
+.dinli li{
+    float: left;
+
+    width: 192px;
+    height: 143px;
+    text-align: center;
+    margin-right: 118px;
+}
+.dinli li p{
+    color: #999999;
+    margin-bottom: 30px;
+}
+.dinli li a{
+    float: left;
+
+    width: 93px;
+    height: 92px;
+    border: 1px solid #eeeeee;
+}
+.dinli li .left span{
+    display: block;
+
+    width: 29px;
+    height: 27px;
+
+    margin: 22px 32px 10px;
+
+    background-image: url(../images/sprites.png);
+    background-position: -250px -70px;
+}
+.dinli li .left p{
+    font-size: 14px;
+}
+.dinli li .left:hover p{
+    color: #27ba9b;
+}
+.dinli li .left .wenhao{
+    height: 28px;
+    background-image: url(../images/sprites.png);
+    background-position: -350px -70px;
+}
+.dinli li .youyi{
+    margin-right: 6px;
+}
+.dinli li .youyi .le{
+    width: 36px;
+	height: 29px;
+    background-image: url(../images/sprites.png);
+    background-position: -205px -15px;
+}
+.dinli li .youyi .hei{
+    width: 36px;
+	height: 29px;
+    background-image: url(../images/sprites.png);
+    background-position: -350px -15px;
+}
+.dinli .xiazai {
+    float: left;
+
+    width: 274px;
+    height: 189px;
+    border-right: 2px solid #f2f2f2;
+    padding-top: 9px;
+    margin-right: 66px;
+}
+.dinli .xiazai dl{
+    float: left;
+
+    width: 241px;
+	height: 156px;
+}
+.dinli .xiazai dt{
+    margin-bottom: 24px;
+    margin-left: 95px;
+    color: #999999;
+}
+
+.dinli .xiazai dd img{
+    float: left;
+
+    width: 105px;
+    height: 103px;
+    margin-right: 26px;
+    border: 1px solid #e8e5e5;
+    padding: 4px;
+}
+.dinli .xiazai dd p{
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 10px;
+}
+.dinli .xiazai dd a{
+    float: left;
+
+    width: 103px;
+    height: 32px;
+    background-color: #27ba9b;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    color: #ffffff;
+    transition: all 1s;
+}
+.dinli .xiazai dd a:hover{
+    background-color: #fff;
+    color: #27ba9b;
+}
+.dinli .zuihou{
+    float: left;
+
+    width: 160px;
+	height: 122px;
+}
+.dinli .zuihou dt{
+    margin-left: 46px;
+    color: #999999;
+    margin-bottom: 36px;
+}
+.dinli .zuihou .daima{
+    margin-bottom: 17px;
+    font-size: 22px;
+    color: #666666;
+}
+.dinli .zuihou .shijian{
+    font-size: 15px;
+    color: #999999;
+}
+.dili{
+    height: 322px;
+    background-color: #333;
+}
+.dili .shanban{
+    width: 1393px;
+    height: 161px;
+    margin: 0 auto;
+    padding: 60px 130px 0;
+    border-bottom: 3px solid #434343;
+}
+.dili .shanban li{
+    float: left;
+
+    margin-right: 287px;
+}
+
+.dili .shanban li a{
+    display: block;
+
+    width: 186px;
+    height: 58px;
+}
+.dili .shanban li a span{
+    float: left;
+
+    width: 58px;
+    height: 58px;
+
+    margin-right: 15px;
+    
+    
+}
+.dili .shanban li a .qinmin{
+    background-image: url(../images/sprites.png);
+}
+.dili .shanban li a p{
+    float: left;
+    font-size: 28px;
+    margin-top: 13px;
+    color: #ffffff;
+}
+.dili .shanban li:nth-child(3){
+    margin-right: 0;
+}
+.dili .shanban li a .che{
+    background-image: url(../images/sprites.png);
+    background-position: -130px 0;
+}
+.dili .shanban li a .dianzhan{
+    background-image: url(../images/sprites.png);
+    background-position: -65px 0;
+}
+.dili .laile{
+    width: 581px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 41px;
+    text-align: center;
+}
+.dili .laile li{
+    float: left;
+    padding: 0 12px;
+    border-right: 1px solid #999;
+    cursor: pointer;
+}
+.dili .laile li a{
+    font-size: 14px;
+    color: #999999;
+}
+.dili .laile li:hover a{
+    color: #27ba9b;
+}
+.dili .laile li:nth-child(7){
+    border: none;
+}
+.dili .laile p{
+    color: #999999;
+    font-size: 14px;
+    margin-top: 29px;
+}
+
